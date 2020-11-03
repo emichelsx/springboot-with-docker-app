@@ -20,7 +20,7 @@ public class VolumeController {
     ResponseEntity getDadosVolume() throws IOException {
         File file = new File(fileVolumePath);
         if(file.exists()) {
-            FileInputStream stream = new FileInputStream("/var/www/exemplo-volume-docker.txt");
+            FileInputStream stream = new FileInputStream(fileVolumePath);
             InputStreamReader reader = new InputStreamReader(stream);
             BufferedReader br = new BufferedReader(reader);
             StringBuilder stringBuilder = new StringBuilder();
