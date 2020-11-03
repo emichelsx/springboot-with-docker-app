@@ -1,7 +1,7 @@
 # springboot-with-docker-app
 
 ### Objetivo
-É um guia introdutório para trabalhar com uma aplicação em springboot dentro de um docker container.
+É um guia introdutório de Docker aplicado em uma aplicação springboot.
 
 ### Pré-requisitos
 Possuir o docker instalado na maquina local. **[Manual de instalação Docker para Linux](https://github.com/emichelsx/linux-docker-installation-manual).**
